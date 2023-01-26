@@ -19,3 +19,13 @@
         background-position: -1258px, 0;
     }
 }
+
+.feedback-link {
+  display: flex;
+  justify-content: flex-end;
+}
+.feedback-link img {
+  padding: 10px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+}
