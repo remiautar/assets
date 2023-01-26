@@ -13,7 +13,7 @@
     height: 252px;
     transform: translate(-50%, -50%);
     margin: 2em auto;
-    animation: bounce 10s steps(5);
+    animation: bounce 1s steps(5) infinite;
 }
 
 @keyframes bounce{
