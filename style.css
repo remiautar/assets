@@ -1,7 +1,26 @@
+/* alert textbox manipulation*/
 .alert {
    background-color: rgba(0, 0, 0, 0.5);
+   animation: drop-down 0.5s ease-in-out;
+   animation-fill-mode: forwards; /* keeps final state of the animation */
 }
 
+/* alert textbox animation*/
+@keyframes drop-down {
+  from {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(50%); /* stop the animation when bottom reaches 50% of page */
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+
+/* brobot sprite*/
 .brobot{
     position: absolute;
     top: 40%;
@@ -14,12 +33,15 @@
     animation: bounce 1s steps(5) infinite;
 }
 
+/* brobot sprite animation*/
 @keyframes bounce{
     100% {
         background-position: -1258px, 0;
     }
 }
 
+
+/* hyperlink for getting feedback*/
 .feedback-link {
   display: flex;
   justify-content: flex-end;
