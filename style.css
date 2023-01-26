@@ -1,8 +1,9 @@
 /* alert textbox manipulation*/
 .alert {
    background-color: rgba(0, 0, 0, 0.5);
-   animation: drop-down 0.5s ease-in-out;
+   animation: drop-down 1s ease-in-out; /* animation time*/
    animation-fill-mode: forwards; /* keeps final state of the animation */
+    animation-iteration-count: 1; /*only do it once*/
 }
 
 /* alert textbox animation*/
@@ -48,8 +49,8 @@
 }
 
 .feedback-link img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   padding: 10px;
   background-color: #4CAF50;
