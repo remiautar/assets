@@ -14,7 +14,7 @@
     position: absolute;
     top: 40%;
     left: 50%;
-    background: transparent url('brobot.png') 0 0 no-repeat;
+    background: transparent url('https://github.com/remiautar/assets/blob/main/brobot.png') 0 0 no-repeat;
     width: 252px;
     height: 252px;
     transform: translate(-50%, -50%);
