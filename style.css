@@ -1,3 +1,9 @@
+/* make child containers transparent*/
+.container {
+    /* the lase value is for transparancy 0 to 1 */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .moon{
     position: absolute;
     width: 250px;
