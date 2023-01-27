@@ -4,3 +4,7 @@ body {
   background-repeat: no-repeat;
 }
 #particles-js
+{
+  height: 100%;
+  background: transparent;
+}
