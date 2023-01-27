@@ -4,16 +4,12 @@
    animation: drop-down 2s ease-in-out; /* animation time*/
    animation-fill-mode: forwards; /* keeps final state of the animation */
    animation-iteration-count: 1; /*only do it once*/
-   animation-play-state: paused;
 }
 
 /* alert textbox animation*/
 @keyframes drop-down {
   from {
     transform: translateY(-100%);
-  }
-  50% {
-    transform: translateY(50%); /* stop the animation when bottom reaches 50% of page */
   }
   to {
     transform: translateY(0);
