@@ -38,3 +38,10 @@
   background-color: #4CAF50;
 }
 
+/*button styling*/
+.btn.active {
+  background-color: red;
+  border: solid 1px #000;
+}
+
+
