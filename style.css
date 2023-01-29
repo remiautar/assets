@@ -38,17 +38,17 @@
   background-color: #4CAF50;
 }
 
-/* logo manipulation*/
+ /* logo manipulation*/
 .logo {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: rgba(42, 161, 6, 0.95);;
+  color: rgba(255, 255, 255, 0.95);;
   text-align: center;
   margin: 20px 0;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(13, 100, 32, 1);
   display: inline-block;
   border-radius: 10px;
   text-shadow: 2px 2px #000;
