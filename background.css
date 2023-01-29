@@ -7,10 +7,10 @@ body {
 #particles-js {
   width: 60vw;
   height: 60vh;
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   left: 50%;
   transform:translate(-50%, -50%);
-  background: transparent;
+  /* background: transparent; */
   z-index: -1;
 }
