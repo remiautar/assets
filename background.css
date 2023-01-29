@@ -5,12 +5,12 @@ body {
 }
 
 #particles-js {
-  width: 60vw;
-  height: 60vh;
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
-  transform:translate(-50%, -50%);
-  /* background: transparent; */
+  /* width: 60vw; */
+  height: 100%;
+  position: absolute;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform:translate(-50%, -50%); */
+  background: transparent;
   z-index: -1;
 }
