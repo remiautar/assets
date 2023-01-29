@@ -53,5 +53,8 @@
   border-radius: 10px;
   text-shadow: 2px 2px #000;
   box-shadow: 2px 2px 2px #000;
+  float:right;
+  margin-right:20px;
+  margin-top:20px;
 }
 
