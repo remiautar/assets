@@ -26,8 +26,8 @@
 
 /* hyperlink for getting feedback*/
 .feedback-link {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   display: flex;
   justify-content: flex-end;
   box-shadow: 2px 2px 2px #000;
@@ -50,6 +50,9 @@
 
  /* logo manipulation*/
 .logo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   border-radius: 30px;
   box-shadow: 2px 2px 2px #000;
 }
@@ -60,5 +63,5 @@
 
 .logo:hover {
   transition: 0.3s;
-  transform: scale(1.8)translate(-25%, 25%);
+  transform: scale(1.8)translate(-25%, -25%);
 }
