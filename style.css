@@ -1,8 +1,13 @@
-?* start button manipulation*/
+/* start button manipulation*/
 .btn:hover {
   transition: 0.3s;
   transform: scale(1.1);
 }
+
+/*spoken text*/
+.fixed-bottom{
+   background-color: rgba(255, 255, 255, 0.3);
+}  
 
 
 /* textbox manipulation */
@@ -16,6 +21,10 @@
 }  
 
 /* recipe image manipulation */ 
+.row img {
+  border-radius: 25px;
+}
+
 .row img:hover {
   transition: 0.3s;
   transform: scale(1.1)translate(10%, -10%);
