@@ -8,24 +8,23 @@
    border-radius: 10px;
    width: 300px;
    height: 100;
-   position: absolute;
    right: 50%;
-   transform: translateX(50%);
 }  
 
 /* recipe image manipulation */
 .row {
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color: rgba(255, 255, 255, 0.2);
    border-radius: 10px;
+   box-shadow: 0px 2px 2px #000;
 }  
+
+.row img:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(10%, -10%);
+}
 
 /* recipe confirmation page containers */
 .card {
-   background-color: rgba(255, 255, 255, 0.5);
-   border-radius: 10px;
-} 
-
-.card-body {
    background-color: rgba(255, 255, 255, 0.5);
    border-radius: 10px;
 } 
@@ -55,7 +54,7 @@
 .feedback-link {
   width: 180px;
   height: 180px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 2px 2px 2px #000;
   border-radius: 15px;
   position: absolute;
@@ -81,7 +80,7 @@
  .logo {
   width: 55px;
   height: 55px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   position: absolute;
   bottom: 0;
   left: 0;
