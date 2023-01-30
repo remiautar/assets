@@ -70,6 +70,6 @@
 }
 
 .logo:hover {
-  transition: 0.3s;
-  transform: scale(1.8)translate(25%, -25%);
+  transition: 8s;
+  transform: scale(8)translate(80%, -80%);
 }
